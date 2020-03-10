@@ -1,1 +1,56 @@
-Unions e ponteiros
+1. Escreva um programa que crie uma union de 
+
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade02 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo testaunion.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+d) Declare um bloco main.
+
+e) Dentro do main, declare uma variável segundos e inicialize-a com um valor.
+
+f) Crie uma variável horas e inicialize-a com a divisão da variável segundos por 3600.
+
+g) Atualize a variável segundos com o resto da divisão de segundos por 3600.
+
+h) Crie uma variável minutos e inicialize-a com a divisão da variável segundos por 60.
+
+i) Atualize a variável segundos com o resto da divisão de segundos por 60.
+
+j) Imprima as variáveis horas, minutos e segundos.
+
+k) Execute o arquivo e observe o resultado.
+
+
+2. Escreva um programa que faça a soma de diversos tipos de números lidos em uma union.
+
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade02 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo testaunion.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+d) Declare um bloco main.
+
+e) Dentro do main, declare uma variável segundos e inicialize-a com um valor.
+
+f) Crie uma variável horas e inicialize-a com a divisão da variável segundos por 3600.
+
+g) Atualize a variável segundos com o resto da divisão de segundos por 3600.
+
+h) Crie uma variável minutos e inicialize-a com a divisão da variável segundos por 60.
+
+i) Atualize a variável segundos com o resto da divisão de segundos por 60.
+
+j) Imprima as variáveis horas, minutos e segundos.
+
+k) Execute o arquivo e observe o resultado.
+
+
+3. Criar uma estrutura que armazena campo moeda em dolar ou real
+
+
+4. Criar um ponteiro comum e fazer alterar o valor realizar as operações artimeticas
+
+5. Criar um ponteiro para um array e percorrer os elementos
