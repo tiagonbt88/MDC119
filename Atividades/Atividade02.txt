@@ -1,4 +1,4 @@
-1. Escreva um programa que crie uma union para armazenar os diversos tipos inteiros.
+1. Escreva um programa que crie uma union para armazenar os diversos tipos de inteiro.
 
 a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
 
@@ -6,38 +6,36 @@ b) Crie uma pasta Atividade02 acionando a opção New Folder sobre a pasta Ativi
 
 c) Crie um arquivo union_inteiros.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
 
-d) Declare uma union numeros_inteiros contendo os elementos caracter, inteiro_curto, inteiro, inteiro_longo, respectivamento dos tipos char, short int, int, long int.
+d) Declare uma union u_numeros_inteiros contendo os elementos: caracter do tipo char, inteiro_curto do tipo short int, inteiro do tipo int e inteiro_longo do tipo long int.
 
 e) Declare um bloco main.
 
-f) Dentro do main, declare uma variável numero para a union numeros_inteiros.
+f) Dentro do main, declare uma variável numero para a union u_numeros_inteiros.
 
-g) Atribua um valor para o elemento caracter, em seguida imprima o valor do elemento.
+g) Atribua um valor para o elemento numero.caracter, em seguida imprima o valor do elemento.
 
-h) Atribua um valor para o elemento inteiro_curto, em seguida imprima o valor do elemento.
+h) Atribua um valor para o elemento numero.inteiro_curto, em seguida imprima o valor do elemento.
 
-g) Atualize a variável segundos com o resto da divisão de segundos por 3600.
+i) Atribua um valor para o elemento numero.inteiro, em seguida imprima o valor do elemento.
 
-h) Crie uma variável minutos e inicialize-a com a divisão da variável segundos por 60.
+j) Atribua um valor para o elemento numero.inteiro_longo, em seguida imprima o valor do elemento.
 
-i) Atualize a variável segundos com o resto da divisão de segundos por 60.
+k) Imprima novamente os valores de cada elemento de numero.
 
-j) Imprima as variáveis horas, minutos e segundos.
-
-k) Execute o arquivo e observe o resultado.
+l) Execute o arquivo e observe o resultado.
 
 
-2. Escreva um programa que faça a soma de diversos tipos de números lidos em uma union.
+2. Escreva um programa que compare uma union e uma struct.
 
-a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+a) Crie um arquivo compara_union_struct.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
 
-b) Crie uma pasta Atividade02 acionando a opção New Folder sobre a pasta Atividades.
+b) Declare uma struct contendo os elementos matricula do tipo int, nome do tipo char[30], salario do tipo float.
 
-c) Crie um arquivo testaunion.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+c) Declare uma union contendo os mesmos elementos da struct.
 
 d) Declare um bloco main.
 
-e) Dentro do main, declare uma variável segundos e inicialize-a com um valor.
+e) Dentro do main, declare uma variável para a struct e outra variável para union.
 
 f) Crie uma variável horas e inicialize-a com a divisão da variável segundos por 3600.
 
