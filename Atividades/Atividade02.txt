@@ -1,16 +1,20 @@
-1. Escreva um programa que crie uma union de 
+1. Escreva um programa que crie uma union para armazenar os diversos tipos inteiros.
 
 a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
 
 b) Crie uma pasta Atividade02 acionando a opção New Folder sobre a pasta Atividades.
 
-c) Crie um arquivo testaunion.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+c) Crie um arquivo union_inteiros.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
 
-d) Declare um bloco main.
+d) Declare uma union numeros_inteiros contendo os elementos caracter, inteiro_curto, inteiro, inteiro_longo, respectivamento dos tipos char, short int, int, long int.
 
-e) Dentro do main, declare uma variável segundos e inicialize-a com um valor.
+e) Declare um bloco main.
 
-f) Crie uma variável horas e inicialize-a com a divisão da variável segundos por 3600.
+f) Dentro do main, declare uma variável numero para a union numeros_inteiros.
+
+g) Atribua um valor para o elemento caracter, em seguida imprima o valor do elemento.
+
+h) Atribua um valor para o elemento inteiro_curto, em seguida imprima o valor do elemento.
 
 g) Atualize a variável segundos com o resto da divisão de segundos por 3600.
 
@@ -49,7 +53,6 @@ k) Execute o arquivo e observe o resultado.
 
 
 3. Criar uma estrutura que armazena campo moeda em dolar ou real
-
 
 4. Criar um ponteiro comum e fazer alterar o valor realizar as operações artimeticas
 
