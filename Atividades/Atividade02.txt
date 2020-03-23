@@ -50,8 +50,10 @@ j) Imprima as variáveis horas, minutos e segundos.
 k) Execute o arquivo e observe o resultado.
 
 
-3. Criar uma estrutura que armazena campo moeda em dolar ou real
+3. Criar uma estrutura que armazena campo produto em dolar
 
 4. Criar um ponteiro comum e fazer alterar o valor realizar as operações artimeticas
 
 5. Criar um ponteiro para um array e percorrer os elementos
+
+6. Criar um ponteiro para uma struct.
