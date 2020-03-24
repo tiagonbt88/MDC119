@@ -25,35 +25,85 @@ k) Imprima novamente os valores de cada elemento de numero.
 l) Execute o arquivo e observe o resultado.
 
 
-2. Escreva um programa que compare uma union e uma struct.
+2. Escreva um programa que compare o tamanho da union com a struct.
 
 a) Crie um arquivo compara_union_struct.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
 
-b) Declare uma struct contendo os elementos matricula do tipo int, nome do tipo char[30], salario do tipo float.
+b) Declare uma union u_produto contendo os elementos nome do tipo char[30], preco do tipo float, volume do tipo float e peso do tipo float.
 
-c) Declare uma union contendo os mesmos elementos da struct.
+c) Declare uma struct s_produto contendo os mesmos elementos da union.
 
 d) Declare um bloco main.
 
-e) Dentro do main, declare uma variável para a struct e outra variável para union.
+e) Dentro do main, declare uma variável produto1 para a union e outra variável produto2 para struct.
 
-f) Crie uma variável horas e inicialize-a com a divisão da variável segundos por 3600.
+f) Atribua valores para os elementos tanto da variável produto1 quanto da variável produto2.
 
-g) Atualize a variável segundos com o resto da divisão de segundos por 3600.
+g) Imprima os tamanhos da variável produto1 e produto2 (Dica: utilize a função sizeof()).
 
-h) Crie uma variável minutos e inicialize-a com a divisão da variável segundos por 60.
+h) Execute o arquivo e observe o resultado.
 
-i) Atualize a variável segundos com o resto da divisão de segundos por 60.
+i) Declare um outra struct s_item contendo os mesmos elmentos da union, sendo que os elementos volume e peso devem compartilhar a mesma área de memória (Dica: declare uma union dentro da struct contendo peso e volume).
 
-j) Imprima as variáveis horas, minutos e segundos.
+j) Declare as variáveis produto3 e produto4 para a struct s_item.
 
-k) Execute o arquivo e observe o resultado.
+k) Atribua valores para os elementos das variáveis produto3 e produto4, sendo que produto3 tem peso e produto4 tem volume.
+
+l) Imprima os tamanhos da variável produto3 e produto4.
+
+m) Execute novamente o arquivo e observe o resultado.
 
 
-3. Criar uma estrutura que armazena campo produto em dolar
+3. Escreva um programa para manipular um ponteiro.
 
-4. Criar um ponteiro comum e fazer alterar o valor realizar as operações artimeticas
+a) Crie um arquivo ponteiro_comum.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
 
-5. Criar um ponteiro para um array e percorrer os elementos
+b) Declare um bloco main.
 
-6. Criar um ponteiro para uma struct.
+c) Dentro do main, declare uma variável x do tipo inteiro.
+
+d) Declare uma variável ptr do tipo ponteiro de inteiro.
+
+e) Imprima o valor da variável ptr (Dica: usar a mascara %p para imprimir).
+
+f) Execute o arquivo e observe o resultado.
+
+g) Atribua um valor para a variável x.
+
+h) Atribua o endereço da variável x para o pronteiro ptr.
+
+i) Imprima o valor da variável x e do ponteiro ptr.
+
+j) Execute novamente o arquivo e observe o resultado.
+
+k) Atribua ao conteúdo do ponteiro outro valor (Dica: *ptr = 10).
+
+l) Imprima o valor da variável x e do ponteiro ptr.
+
+m) Execute novamente o arquivo e observe o resultado.
+
+
+4. Escreva um programa que percorra os elementos de um array utilizando um ponteiro.
+
+a) Crie um arquivo ponteiro_array.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare uma variável string do tipo array de 30 caracteres.
+
+d) Atribua a frase "Eu gosto de C!" a variável string.
+
+e) Declara um ponteiro p para o tipo caracter.
+
+f) Atribua ao ponteiro o endereço da string.
+
+g) Faça um laço para percorrer cada elemento da string (Dica: utilize como condição de parada o conteúdo do ponteiro igual a '\0' e incremente o ponteiro). 
+
+h) Execute o arquivo e observe o resultado.
+
+
+5. Escreva um programa que manipular uma struct através de um ponteiro.
+
+a) Crie um arquivo ponteiro_struct.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+h) Execute o arquivo e observe o resultado.
