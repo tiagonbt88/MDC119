@@ -106,4 +106,24 @@ h) Execute o arquivo e observe o resultado.
 
 a) Crie um arquivo ponteiro_struct.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
 
-h) Execute o arquivo e observe o resultado.
+b) Declare uma estrutura s_aluno os elementos matricula do tipo int, nome do tipo char[30], media do tipo float.
+
+c) Declare um bloco main.
+
+d) Dentro do main, declare uma variável aluno para a struct.
+
+e) Declare um ponteiro ptr para a struct.
+
+f) Atribua valores para os elementos de aluno.
+
+g) Atribua o endereço de aluno para o ponteiro ptr.
+
+h) Imprima os valores dos elementos de aluno através do ponteiro (Dica: ptr->elemento).
+
+i) Execute o arquivo e observe o resultado.
+
+j) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+k) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade02).
+
+l) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.
