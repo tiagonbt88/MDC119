@@ -1,3 +1,88 @@
-Funções e parametros
+1. Escreva um programa que leia um ano e verifique se ele é bissexto.
 
-Recursividade
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade03 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo bissexto.c dentro da pasta Atividade03.
+
+d) Declare uma função is_bissexto() que recebe como um parâmetro um inteiro i e retorna um inteiro.
+
+e) Faça a função calcular se o valor de i é bissexto ou não retornando 0 para falso e 1 para verdadeiro.
+
+f) Declare um bloco main.
+
+g) Dentro do main, declare a variável ano e inicialize-a com um valor lido via função scanf().
+
+h) Chame a função is_bissexto() passando o valor de ano como parâmetro. Se ela retornar 1 então imprima Ano é bissexto. Senão imprima Ano não é bissexto.
+
+i) Execute o arquivo e observe o resultado.
+
+
+
+2. Escreva um programa que converta um número de horas, minutos e segundos em segundos.
+
+a) Crie um arquivo conversorhoras.c acionando o menu New File com o botão direito sobre a pasta Atividade03. 
+
+b) Declare um função converte_hhmmss_em_segundos que recebe um inteiro h, um inteiro m e um inteiro s como parametros e retorna int.
+
+c) Faça a função converte_hhmmss_em_segundos retornar o valor em segundos a partir dos valores de h, m e s.
+
+d) Declare um bloco main.
+
+e) Dentro do main, declare as variáveis horas, minudos e segundos e inicialize-as com valores lidos via função scanf().
+
+f) Chame a função converte_hhmmss_em_segundos passando os valores da variáveis horas, minutos e segundos. Imprima o valor retornado pela função.
+
+g) Execute o arquivo e observe o resultado.
+
+
+3. Escreva um programa que leia uma frase e calcule a quantidade de vogais nela.
+
+a) Crie um arquivo contarvogais acionando o menu New File com o botão direito sobre a pasta Atividade03.
+
+b) Declare a função conta_vogais() que recebe como parametro um pontiero para char e retorna um inteiro.
+
+d) Converta a frase para toda em minúscula utilizando toLowerCase.
+
+e) Declare as variáveis quantidadeVogais e quantidadeConsoantes, inicializando-as com ZERO.
+
+f) Declare um laço que se repita de 0 até o tamanho da frase.
+
+g) Dentro do laço, utilize charAt para verificar se o caractere é uma vogal e incremente a variável quantidadeVogais, ou se é uma consoante e incremente a variável quantidadeConsoantes.
+
+c) Dentro do main, declare a variável frase e inicialize-a com um falor lido via função scanf().
+
+h) Imprima a quantidade de caracteres na frase, a quantidade de vogais chamando a função conta_vogais() e a quantidade de consoantes conta_consoantes().
+
+i) Execute o arquivo e observe o resultado.
+
+
+4. Ponteiro de uma função
+
+
+5. Escreva um programa que imprima os n primeiros números da serie de Fibonacci.
+
+a) Crie um arquivo fibonacci.c dentro da pasta Atividade03.
+
+b) Declare uma função fibonacci() que recebe um inteiro n como parâmetro e retoner um inteiro.
+
+c) Faça a função fibonacci() verificar se o parâmetro n é maior que 2. Se for retorne fibonacci(n-1) + fibonacci(n-2). Senão retorne o valor 1.  
+
+d) Declare um bloco main.
+
+e) Dentro do main, declare a variável n e inicialize-a com um valor lido via função scanf().
+
+f) Declare um laço que se repita até o valor de n.
+
+g) Faça o laço imprimir o valor retornado pela chamada fibonacci() passando o contador i+1. 
+
+h) Chame a função fibonacci() passando p valor da variável n como parâmetro.
+
+i) Execute o arquivo e observe o resultado.
+
+j) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+k) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade01).
+
+l) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.
