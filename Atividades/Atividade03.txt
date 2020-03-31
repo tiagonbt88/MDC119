@@ -10,7 +10,7 @@ d) Declare uma função is_bissexto() que recebe como um parâmetro um inteiro i
 
 e) Faça a função calcular se o valor de i é bissexto ou não retornando 0 para falso e 1 para verdadeiro.
 
-f) Declare um bloco main.
+f) Declare a função main().
 
 g) Dentro do main, declare a variável ano e inicialize-a com um valor lido via função scanf().
 
@@ -28,7 +28,7 @@ b) Declare um função converte_hhmmss_em_segundos que recebe um inteiro h, um i
 
 c) Faça a função converte_hhmmss_em_segundos retornar o valor em segundos a partir dos valores de h, m e s.
 
-d) Declare um bloco main.
+d) Declare a função main().
 
 e) Dentro do main, declare as variáveis horas, minudos e segundos e inicialize-as com valores lidos via função scanf().
 
@@ -43,19 +43,21 @@ a) Crie um arquivo contarvogais acionando o menu New File com o botão direito s
 
 b) Declare a função conta_vogais() que recebe como parametro um pontiero para char e retorna um inteiro.
 
-d) Converta a frase para toda em minúscula utilizando toLowerCase.
+c) Dentro da função declare uma variável quantidade incializando-a com ZERO.
 
-e) Declare as variáveis quantidadeVogais e quantidadeConsoantes, inicializando-as com ZERO.
+d) Declare um laço que se repita de o conteudo do ponteiro for igual a 0.
 
-f) Declare um laço que se repita de 0 até o tamanho da frase.
+e) Dentro do laço, utilize a função strchr para procurar o conteúdo do ponteido na string "AaEeIiOoUu" (Dica: strchr("AaEeIiOoUu", *p) ). Se a função achar o ponteiro na string incremente a variável quantidade.
 
-g) Dentro do laço, utilize charAt para verificar se o caractere é uma vogal e incremente a variável quantidadeVogais, ou se é uma consoante e incremente a variável quantidadeConsoantes.
+f) Faça a função retornar a função da variável quantidade.
 
-c) Dentro do main, declare a variável frase e inicialize-a com um falor lido via função scanf().
+g) Declare a função main().
 
-h) Imprima a quantidade de caracteres na frase, a quantidade de vogais chamando a função conta_vogais() e a quantidade de consoantes conta_consoantes().
+h) Dentro do main, declare a variável frase do tipo char[50] e inicialize-a com um valor lido via função scanf().
 
-i) Execute o arquivo e observe o resultado.
+i) Imprima a quantidade de vogais na frase a partir da chamada da função contar_vogais().
+
+j) Execute o arquivo e observe o resultado.
 
 
 4. Ponteiro de uma função
@@ -69,7 +71,7 @@ b) Declare uma função fibonacci() que recebe um inteiro n como parâmetro e re
 
 c) Faça a função fibonacci() verificar se o parâmetro n é maior que 2. Se for retorne fibonacci(n-1) + fibonacci(n-2). Senão retorne o valor 1.  
 
-d) Declare um bloco main.
+d) Declare a função main().
 
 e) Dentro do main, declare a variável n e inicialize-a com um valor lido via função scanf().
 
