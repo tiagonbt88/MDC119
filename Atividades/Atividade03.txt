@@ -1,0 +1,133 @@
+1. Escreva um programa que leia um ano e verifique se ele é bissexto.
+
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade03 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo bissexto.c dentro da pasta Atividade03.
+
+d) Declare uma função is_bissexto() que recebe como um parâmetro um inteiro i e retorna um inteiro.
+
+e) Faça a função calcular se o valor de i é bissexto ou não retornando 0 para falso e 1 para verdadeiro.
+
+f) Declare a função main().
+
+g) Dentro do main, declare a variável ano e inicialize-a com um valor lido via função scanf().
+
+h) Chame a função is_bissexto() passando o valor de ano como parâmetro. Se ela retornar 1 então imprima Ano é bissexto. Senão imprima Ano não é bissexto.
+
+i) Execute o arquivo e observe o resultado.
+
+
+
+2. Escreva um programa que converta um número de horas, minutos e segundos em segundos.
+
+a) Crie um arquivo conversorhoras.c acionando o menu New File com o botão direito sobre a pasta Atividade03. 
+
+b) Declare um função converte_hhmmss_em_segundos que recebe um inteiro h, um inteiro m e um inteiro s como parametros e retorna int.
+
+c) Faça a função converte_hhmmss_em_segundos retornar o valor em segundos a partir dos valores de h, m e s.
+
+d) Declare a função main().
+
+e) Dentro do main, declare as variáveis horas, minudos e segundos e inicialize-as com valores lidos via função scanf().
+
+f) Chame a função converte_hhmmss_em_segundos passando os valores da variáveis horas, minutos e segundos. Imprima o valor retornado pela função.
+
+g) Execute o arquivo e observe o resultado.
+
+
+
+3. Escreva um programa que leia uma frase e calcule a quantidade de vogais nela.
+
+a) Crie um arquivo contarvogais acionando o menu New File com o botão direito sobre a pasta Atividade03.
+
+b) Declare a função conta_vogais() que recebe como parametro um pontiero para char e retorna um inteiro.
+
+c) Dentro da função declare uma variável quantidade incializando-a com ZERO.
+
+d) Declare um laço que se repita de o conteudo do ponteiro for igual a 0.
+
+e) Dentro do laço, utilize a função strchr para procurar o conteúdo do ponteido na string "AaEeIiOoUu" (Dica: strchr("AaEeIiOoUu", *p) ). Se a função achar o ponteiro na string incremente a variável quantidade.
+
+f) Faça a função retornar a função da variável quantidade.
+
+g) Declare a função main().
+
+h) Dentro do main, declare a variável frase do tipo char[50] e inicialize-a com um valor lido via função scanf().
+
+i) Imprima a quantidade de vogais na frase a partir da chamada da função contar_vogais().
+
+j) Execute o arquivo e observe o resultado.
+
+
+
+4. Ponteiro de uma função
+
+a) Crie um arquivo ordena.c acionando o menu New File com o botão direito sobre a pasta Atividade03.
+
+b) Declare uma função maior() que recebe dois parametros inteiros a e b e retorna um inteiro. 
+
+c) Faça a função maior() retornar a comparação a > b;
+
+d) Declare uma função menor() que recebe dois parametros inteiros a e b e retorna um inteiro. 
+
+e) Faça a função menor() retornar a comparação a < b;
+
+f) Declare uma função ordena que recebe um ponteiro inteiro vetor e um ponteiro para uma função que recebe dois parametros inteiros a e b e retorna inteiro.
+
+g) Faça um laço que repita i de 0 ate 9.
+
+h) Dentro do laço faça outro laço que repita j de i até 9.
+
+i) Dentro do segundo laço verifique se a chamada ao ponteiro da funçao ptr passando como parametros vetor[i] e vetor[j]. Se for verdade, declare uma variável aux do tipo inteiro e atribua o valor de vetor[i]. Atribua ao vetor[i] o valor de vetor[j]. E por último, atribua ao vetor[j] o valor de aux.
+
+j) Declare uma função imprime() que recebe um ponteiro de inteiro vetor e não retorna nada.
+
+k) Dentro da função imprime() faça um laço que repida i de 0 até 9.
+
+l) Dentro do laço imprima o valor de vetor[i].
+
+m) Fora do laço imprima o caracter \n.
+
+n) Declare a função main().
+
+o) Dentro do main declare um vetor v de inteiros inicializando com dez valores distintos (ex.: int v[] = {5, 6, 8, 1, 2, 0, 3, 4, 7, 9};) 
+
+p) Chame a função ordena() passando como parâmetros o vetor v e a função maior().
+
+q) Chame a função imprime() passando como parâmtro o vetor v.
+
+r) Chame a função ordena() passando como parâmetros o vetor v e a função menor().
+
+s) Chame a função imprime() passando como parâmtro o vetor v.
+
+t) Execute o arquivo e observe o resultado.
+
+
+
+5. Escreva um programa que imprima os n primeiros números da serie de Fibonacci.
+
+a) Crie um arquivo fibonacci.c dentro da pasta Atividade03.
+
+b) Declare uma função fibonacci() que recebe um inteiro n como parâmetro e retoner um inteiro.
+
+c) Faça a função fibonacci() verificar se o parâmetro n é maior que 2. Se for retorne fibonacci(n-1) + fibonacci(n-2). Senão retorne o valor 1.  
+
+d) Declare a função main().
+
+e) Dentro do main, declare a variável n e inicialize-a com um valor lido via função scanf().
+
+f) Declare um laço que se repita até o valor de n.
+
+g) Faça o laço imprimir o valor retornado pela chamada fibonacci() passando o contador i+1. 
+
+h) Chame a função fibonacci() passando p valor da variável n como parâmetro.
+
+i) Execute o arquivo e observe o resultado.
+
+j) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+k) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade01).
+
+l) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.

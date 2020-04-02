@@ -1,0 +1,129 @@
+1. Escreva um programa que crie uma union para armazenar os diversos tipos de inteiro.
+
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade02 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo union_inteiros.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+d) Declare uma union u_numeros_inteiros contendo os elementos: caracter do tipo char, inteiro_curto do tipo short int, inteiro do tipo int e inteiro_longo do tipo long int.
+
+e) Declare um bloco main.
+
+f) Dentro do main, declare uma variável numero para a union u_numeros_inteiros.
+
+g) Atribua um valor para o elemento numero.caracter, em seguida imprima o valor do elemento.
+
+h) Atribua um valor para o elemento numero.inteiro_curto, em seguida imprima o valor do elemento.
+
+i) Atribua um valor para o elemento numero.inteiro, em seguida imprima o valor do elemento.
+
+j) Atribua um valor para o elemento numero.inteiro_longo, em seguida imprima o valor do elemento.
+
+k) Imprima novamente os valores de cada elemento de numero.
+
+l) Execute o arquivo e observe o resultado.
+
+
+2. Escreva um programa que compare o tamanho da union com a struct.
+
+a) Crie um arquivo compara_union_struct.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+b) Declare uma union u_produto contendo os elementos nome do tipo char[30], preco do tipo float, volume do tipo float e peso do tipo float.
+
+c) Declare uma struct s_produto contendo os mesmos elementos da union.
+
+d) Declare um bloco main.
+
+e) Dentro do main, declare uma variável produto1 para a union e outra variável produto2 para struct.
+
+f) Atribua valores para os elementos tanto da variável produto1 quanto da variável produto2.
+
+g) Imprima os tamanhos da variável produto1 e produto2 (Dica: utilize a função sizeof()).
+
+h) Execute o arquivo e observe o resultado.
+
+i) Declare um outra struct s_item contendo os mesmos elmentos da union, sendo que os elementos volume e peso devem compartilhar a mesma área de memória (Dica: declare uma union dentro da struct contendo peso e volume).
+
+j) Declare as variáveis produto3 e produto4 para a struct s_item.
+
+k) Atribua valores para os elementos das variáveis produto3 e produto4, sendo que produto3 tem peso e produto4 tem volume.
+
+l) Imprima os tamanhos da variável produto3 e produto4.
+
+m) Execute novamente o arquivo e observe o resultado.
+
+
+3. Escreva um programa para manipular um ponteiro.
+
+a) Crie um arquivo ponteiro_comum.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare uma variável x do tipo inteiro.
+
+d) Declare uma variável ptr do tipo ponteiro de inteiro.
+
+e) Imprima o valor da variável ptr (Dica: usar a mascara %p para imprimir).
+
+f) Execute o arquivo e observe o resultado.
+
+g) Atribua um valor para a variável x.
+
+h) Atribua o endereço da variável x para o pronteiro ptr.
+
+i) Imprima o valor da variável x e do ponteiro ptr.
+
+j) Execute novamente o arquivo e observe o resultado.
+
+k) Atribua ao conteúdo do ponteiro outro valor (Dica: *ptr = 10).
+
+l) Imprima o valor da variável x e do ponteiro ptr.
+
+m) Execute novamente o arquivo e observe o resultado.
+
+
+4. Escreva um programa que percorra os elementos de um array utilizando um ponteiro.
+
+a) Crie um arquivo ponteiro_array.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare uma variável string do tipo array de 30 caracteres.
+
+d) Atribua a frase "Eu gosto de C!" a variável string.
+
+e) Declara um ponteiro p para o tipo caracter.
+
+f) Atribua ao ponteiro o endereço da string.
+
+g) Faça um laço para percorrer cada elemento da string (Dica: utilize como condição de parada o conteúdo do ponteiro igual a '\0' e incremente o ponteiro). 
+
+h) Execute o arquivo e observe o resultado.
+
+
+5. Escreva um programa que manipular uma struct através de um ponteiro.
+
+a) Crie um arquivo ponteiro_struct.c acionando o menu New File com o botão direito sobre a pasta Atividade02. 
+
+b) Declare uma estrutura s_aluno os elementos matricula do tipo int, nome do tipo char[30], media do tipo float.
+
+c) Declare um bloco main.
+
+d) Dentro do main, declare uma variável aluno para a struct.
+
+e) Declare um ponteiro ptr para a struct.
+
+f) Atribua valores para os elementos de aluno.
+
+g) Atribua o endereço de aluno para o ponteiro ptr.
+
+h) Imprima os valores dos elementos de aluno através do ponteiro (Dica: ptr->elemento).
+
+i) Execute o arquivo e observe o resultado.
+
+j) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+k) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade02).
+
+l) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.

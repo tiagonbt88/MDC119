@@ -1,0 +1,201 @@
+1. Escreva um programa que converta um número de segundos em horas, minutos e segundos.
+
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade01 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo conversorhoras.c acionando o menu New File com o botão direito sobre a pasta Atividade01. 
+
+d) Declare um bloco main.
+
+e) Dentro do main, declare uma variável segundos e inicialize-a com um valor.
+
+f) Crie uma variável horas e inicialize-a com a divisão da variável segundos por 3600.
+
+g) Atualize a variável segundos com o resto da divisão de segundos por 3600.
+
+h) Crie uma variável minutos e inicialize-a com a divisão da variável segundos por 60.
+
+i) Atualize a variável segundos com o resto da divisão de segundos por 60.
+
+j) Imprima as variáveis horas, minutos e segundos.
+
+k) Execute o arquivo e observe o resultado.
+
+
+
+2. Escreva um programa que imprima todos os múltiplos de 3, entre 1 e 100.
+
+a) Crie um arquivo multiplo3.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare um laço que se repita de 1 a 100.
+
+d) Dentro do laço, se o resto do contador por 3 é igual a zero então imprima o valor do contador.
+
+e) Execute o arquivo e observe o resultado.
+
+
+
+3. Escreva um programa que imprima os 10 primeiros números da serie de Fibonacci.
+
+a) Crie um arquivo fibonacci.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare as variáveis anterior, numero e próximo. 
+
+d) Inicialize as variáveis numero e proximo com 0 e 1, respectivamente.
+
+e) Crie um laço que se repita 10 vezes.
+
+f) Dentro do laço, imprima a variável numero.
+
+g) Atualize a variável anterior com a variável proximo.
+
+h) Incremente a variável proximo com a variável numero.
+
+i) Atualize a variável numero com a variável anterior.
+
+j) Execute o arquivo e observe o resultado.
+
+
+
+4. Escreva um programa que leia um ano e verifique se ele é bissexto.
+
+a) Crie um arquivo bissexto.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare a variável ano.
+
+d) Utilize a função scanf para ler um valor para a variável ano.
+
+e) Se ano é múltiplo de 4 e não é múltiplo de 100, ou é múltiplo de 400 então imprima Ano é bissexto. Senão imprima Ano não é bissexto.
+
+f) Execute o arquivo e observe o resultado.
+
+
+
+5. Escreva um programa que imprima um array na sequência normal e na sequência invertida.
+
+a) Crie um arquivo inverterarray.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare a variável array inicializando com os valores {1,2,3,4,5,6,7,8,9,10}.
+
+d) Declare um laço que se repita de 0 até tamanho do array e imprima cada elemento do array.
+
+e) Declare um laço que se repita de tamanho do array-1 até 0 e imprima cada elemento do array.
+
+f) Execute o arquivo e observe o resultado.
+
+
+
+6. Escreva um programa que permita ao usuário preencher um array de 10 números e, em seguida, imprima os valores lidos.
+
+a) Crie um arquivo preencherarray.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare a variável array inicializando com 10 posições.
+
+d) Declare um laço que se repita de 0 até tamanho do array e utilize a função scanf para ler cada elemento do array.
+
+e) Declare um laço que imprima cada elemento de array.
+
+f) Execute o arquivo e observe o resultado.
+
+
+
+7. Escreva um programa que localize um funcionário em um array multidimensional a partir da matricula e, em seguida, imprima o respectivo telefone.
+
+a) Crie um arquivo buscafuncionario.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare a variável funcionarios inicializando com {{1111,30001000},{2222,30002000},{3333,30003000},{4444,30004000},{5555,30005000},{6666,30006000},{7777,30007000}}.
+
+d) Declare uma variável matricula.
+
+e) Utilize a função scanf para ler um valor para a variável matricula.
+
+f) Declare um laço que se repita de 0 até o tamanho de funcionarios.
+
+g) Dentro do laço, se a variável matrícula é igual a posição ZERO do elemento funcionarios[], então imprima o valor da posição UM do elemento funcionarios[] e interrompa o laço.
+
+h) Execute o arquivo e observe o resultado.
+
+
+
+8. Escreva um programa que armazene em um array multitimensional as notas dos alunos e calcule a média final. Em seguida, imprima essas notas.
+
+a) Crie um arquivo boletim.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Dentro do main, declare a variável notas como um array 10X3 (double[10][3]).
+
+d) Declare um laço que se repita de 0 até o tamanho do array.
+
+e) Dentro no laço, utilize a função scanf para ler as duas notas de cada aluno.
+
+f) Calcule a média e armazene na ultima coluna do array notas.
+
+g) Declare um laço que imprima as notas e a média de cada aluno.
+
+h) Execute o arquivo e observe o resultado.
+
+
+
+9. Escreva um programa que calcule a depreciação de um carro.
+
+a) Crie um arquivo depreciacao.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Defina uma estrutura carro_t contendo os atributos marca (char[10]), ano (int), valor (double).
+
+d) Dentro do main, defina uma variável carro do tipo carro_s.
+
+e) Atribua valores para os atributos de carro.
+
+f) Defina uma variável valor_depreciado.
+
+g) Calcule o valor depreciado do carro através da fórmula carro.valor - (2020 - carro.ano)*0.01*carro.valor.
+
+h) Imprima o valor da variável valor_depreciado.
+
+i) Execute o arquivo e observe o resultado.
+
+
+
+10. Escreva um programa que cadastre um funcionário em um array.
+
+a) Crie um arquivo cadastro.c dentro da pasta Atividade01.
+
+b) Declare um bloco main.
+
+c) Defina uma estrutura funcionario_t contendo os atributos nome (char[50]), salário (double), admissao (char[10]).
+
+d) Dentro do main, defina as variaveis funcionarios (funcionario_t[100]) e total (int).
+
+e) Defina a variável funcionario do tipo funcionario_t.
+
+f) Utilize a função scanf para ler os valores de nome, salario e admissao da variável funcionario. 
+
+g) Armazene na posição total de funcionarios o valor de funcionario, em seguida, incremente total.
+
+h) Repita os passos d) e e) até que o nome do funcionário seja igual a "0".
+
+i) Faça um laço que se repita de 0 até total e imprima o nome, salário e admissão de cada funcionarios[i].
+
+j) Execute o arquivo e observe o resultado.
+
+k) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+l) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade01).
+
+m) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.
