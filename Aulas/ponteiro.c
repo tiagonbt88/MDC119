@@ -10,6 +10,7 @@ int main()
     struct aluno_t *ptr;
 
     aluno.matricula = 0;
+    ptr = &aluno;
     ptr->matricula = 0;
      
     int *p;
