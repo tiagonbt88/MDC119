@@ -1,0 +1,4 @@
+Fazer a leitura e escrita de arquivos binarios
+
+usar fread
+usar fwrite
