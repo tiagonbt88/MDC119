@@ -1,0 +1,1 @@
+Manipular as funções de fopen fclose, fseek e feof
