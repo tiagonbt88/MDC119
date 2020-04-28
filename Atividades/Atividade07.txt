@@ -1,0 +1,4 @@
+Fazer a leitura e escrita de arquivos textos
+
+usar fgetc, fgets, fscanf
+usar fputc, fputs, fprintf
