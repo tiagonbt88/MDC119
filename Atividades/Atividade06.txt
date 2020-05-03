@@ -6,7 +6,7 @@ b) Crie uma pasta Atividade06 acionando a opção New Folder sobre a pasta Ativi
 
 c) Crie um arquivo criar_arquivo_txt.c dentro da pasta Atividade06.
 
-d) Declare uma função main contendo uma uma variável arq do tipo ponteiro para FILE.
+d) Declare uma função main contendo uma variável arq do tipo ponteiro para FILE.
 
 e) Atribua a variável arq o resultado da função open para abrir o arquivo dados.txt em modo leitura.
 
@@ -40,7 +40,7 @@ q) Execute o programa novamente. Edite o conteudo do arquivo dados.txt pelo VSCo
 
 a) Crie um arquivo criar_arquivo_bin.c dentro da pasta Atividade06.
 
-b) Declare uma função main contendo uma uma variável arq do tipo ponteiro para FILE.
+b) Declare uma função main contendo uma variável arq do tipo ponteiro para FILE.
 
 c) Atribua a variável arq o resultado da função open para criar o arquivo dados.bin em modo leitura e escrita.
 
