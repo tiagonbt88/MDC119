@@ -16,7 +16,7 @@ g) Faça um laço para ler as variáveis matricula e nome via teclado até que u
 
 h) Dentro do laço, faça um laço percorrer cada caracter de matricula e escrever no arquivo alunos.txt chamando a função fputc, e outro laço para percorrer cada caracter de nome e também escrever no arquivo alunos.txt.
 
-i) Fora do laço, feche o arquivo dados.txt chamado a função fclose.
+i) Fora do laço, feche o arquivo alunos.txt chamado a função fclose.
 
 j) Atribua a variável arq o resultado da função open para abrir o arquivo alunos.txt em modo leitura.
 
@@ -24,7 +24,7 @@ k) Faça um laço para imprimir o conteudo do arq até que alcance o final do ar
 
 l) Dentro do laço, utilize a função fgetc para ler um caracter do arquivo e depois imprima o valor retornado por ela.
 
-m) Fora do laço, feche o arquivo dados.txt. Execute o programa. Qual foi o resultado?
+m) Fora do laço, feche o arquivo alunos.txt. Execute o programa. Qual foi o resultado?
 
 
 
@@ -42,7 +42,7 @@ e) Faça um laço para ler as variáveis matricula e nome via teclado até que u
 
 f) Dentro do laço, escreva no arquivo alunos.txt o valor das variáveis matricula e nome através da função fputs.
 
-g) Fora do laço, feche o arquivo dados.txt.
+g) Fora do laço, feche o arquivo alunos.txt.
 
 h) Atribua a variável arq o resultado da função open para abrir o arquivo alunos.txt em modo leitura.
 
@@ -50,7 +50,7 @@ i) Faça um laço para imprimir o conteudo do arq até que alcance o final do ar
 
 j) Dentro do laço, utilize a função fputs para ler uma linha do arquivo e depois imprima o valor retornado por ela.
 
-k) Fora do laço, feche o arquivo dados.txt. Execute o programa. Qual foi o resultado?
+k) Fora do laço, feche o arquivo alunos.txt. Execute o programa. Qual foi o resultado?
 
 
 
@@ -68,7 +68,7 @@ e) Faça um laço para ler as variáveis matricula e nome via teclado até que u
 
 f) Dentro do laço, escreva no arquivo alunos.txt o valor das variáveis matricula e nome através da função fprintf no formato %10s\t%30s\n.
 
-g) Fora do laço, feche o arquivo dados.txt.
+g) Fora do laço, feche o arquivo alunos.txt.
 
 h) Atribua a variável arq o resultado da função open para abrir o arquivo alunos.txt em modo leitura.
 
@@ -76,7 +76,7 @@ i) Faça um laço para imprimir o conteudo do arq até que alcance o final do ar
 
 j) Dentro do laço, utilize a função fscanf para ler uma linha do arquivo e depois imprima o valor retornado por ela.
 
-k) Fora do laço, feche o arquivo dados.txt. Execute o programa. Qual foi o resultado?
+k) Fora do laço, feche o arquivo alunos.txt. Execute o programa. Qual foi o resultado?
 
 l) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
 
