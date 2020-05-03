@@ -1,9 +1,3 @@
-Fazer a leitura e escrita de arquivos textos
-
-usar fgetc, fgets, fscanf
-usar fputc, fputs, fprintf
-
-
 1. Criar um programa para ler e escrever caracteres em um arquivo texto na linguagem C.
 
 a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
