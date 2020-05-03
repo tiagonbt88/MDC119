@@ -20,7 +20,7 @@ i) Fora do laço, feche o arquivo alunos.txt chamado a função fclose.
 
 j) Atribua a variável arq o resultado da função open para abrir o arquivo alunos.txt em modo leitura.
 
-k) Faça um laço para imprimir o conteudo do arq até que alcance o final do arquivo alunos.txt. 
+k) Faça um laço para imprimir o conteudo do arquivo alunos.txt até que alcance o final dele. 
 
 l) Dentro do laço, utilize a função fgetc para ler um caracter do arquivo e depois imprima o valor retornado por ela.
 
@@ -46,7 +46,7 @@ g) Fora do laço, feche o arquivo alunos.txt.
 
 h) Atribua a variável arq o resultado da função open para abrir o arquivo alunos.txt em modo leitura.
 
-i) Faça um laço para imprimir o conteudo do arq até que alcance o final do arquivo alunos.txt. 
+i) Faça um laço para imprimir o conteudo do arquivo alunos.txt até que alcance o final dele. 
 
 j) Dentro do laço, utilize a função fputs para ler uma linha do arquivo e depois imprima o valor retornado por ela.
 
@@ -72,7 +72,7 @@ g) Fora do laço, feche o arquivo alunos.txt.
 
 h) Atribua a variável arq o resultado da função open para abrir o arquivo alunos.txt em modo leitura.
 
-i) Faça um laço para imprimir o conteudo do arq até que alcance o final do arquivo alunos.txt. 
+i) Faça um laço para imprimir o conteudo do arquivo alunos.txt até que alcance o final dele. 
 
 j) Dentro do laço, utilize a função fscanf para ler uma linha do arquivo e depois imprima o valor retornado por ela.
 
