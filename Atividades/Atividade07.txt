@@ -77,3 +77,9 @@ i) Faça um laço para imprimir o conteudo do arq até que alcance o final do ar
 j) Dentro do laço, utilize a função fscanf para ler uma linha do arquivo e depois imprima o valor retornado por ela.
 
 k) Fora do laço, feche o arquivo dados.txt. Execute o programa. Qual foi o resultado?
+
+l) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+m) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade06).
+
+n) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.
