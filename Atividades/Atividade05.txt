@@ -1,1 +1,55 @@
-Alocação dinâmica
+1. Criar um programa para criar dinamicamente um vetor de inteiros na linguagem C.
+
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade05 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo vetordinamico.c dentro da pasta Atividade05.
+
+d) No arquivo vetordinamico.c, declare uma função criar_vetor que recebe um parâmetro n e retorne um ponteiro. Ela deve alocar memória para armazenar n elementos inteiros.
+
+e) No arquivo vetordinamico.c, declare uma função ler_vetor que recebe um ponteiro do vetor e um valor n, e não retorna valor. Ela deve ler os n elementos do vetor.
+
+f) No arquivo vetordinamico.c, declare uma função imprimir_vetor que recebe um ponteiro do vetor e um valor n, e não retorna um valor. Ela deve imprimir os n elementos do vetor.
+
+g) No arquivo vetordinamico.c, declare uma função destruir_vetor que recebe um ponteiro do vetor e não retorna valor. Ela deve liberar a área de memória alocado para o vetor e atribuir NULL ao ponteiro.
+
+h) No arquivo vetordinamico.c, declare uma função main que deve ler um numero inteiro, depois criar um vertor chamando a função cirar_vetor, ler valores par os elementos do vetor chamando a função ler_vetor, imprimir o vetor chamando a função imprimir_vetor e liberar a memória chamando a função destruir_vetor.
+
+
+
+2. Criar um tipo abstrato de dados que represente uma lista de contatos, onde um contato possui nome e telefone. 
+
+a) Crie um arquivo contato.h dentro da pasta Atividade05.
+
+b) No arquivo contato.h, defina uma estrutura contato contendo os elementos nome char[60] e telefone int.
+
+c) No arquivo contato.h, defina um protótipo para a função criar_contato que recebe os parâmetros nome e telefone, e retorna um ponteiro para contato.
+
+d) No arquivo contato.h, defina um protótipo para a função adicionar_contato que recebe os parâmetros um ponteiro de contato e um ponteiro de ponteiro de contato, e não retorna valor. 
+
+e) No arquivo contato.h, defina um protótipo para a função buscar_contato que recebe um nome e um ponteiro de ponteiro de contato e retorna um ponteiro de contato.
+
+f) No arquivo contato.h, defina um protótipo para a função listar_contato que recebe um ponteiro de ponteiro de contato e não retorna valor.
+
+g) Crie um arquivo contato.c dentro da pasta Atividade05.
+
+h) No arquivo contato.c, faça a inclusão do arquivo contato.h.
+
+i) Implemente a função criar_contato para alocar memória para a estrutura contato e atribuir os valores dos parâmetros nome e telefone aos elementos do ponteiro de contato.
+
+j) Implemente a função adicionar_contato para alocar um bloco de memória para o ponteiro de ponteiro de contato, se estivar vazio, ou realocar mais um bloco de memória se não for vazio, e armazenar na última posição o ponteiro de contato. Calcule o tamanho do valor pela operação sizeof(lista)/sizeof(contato) para saber quanto contatos tem na lista.
+
+k) Implemente a função buscar_contato para percorrer todos elementos do ponteiro de ponteiro de contato até o contanto ter o nome igual ao paraemtro nome, retornando o ponteiro de contato. Utilize a função srctmp() para comprar duas strings sendo que resutlado 0 indica que são iguais.
+
+l) Implemente a função listar_contato para percorrer todos elementos do ponteiro de ponteiro e imprimir o nome e telefone do contato.
+
+m) Crie um arquivo testa_contato.c dentro da pasta Atividade05.
+
+n) Declare a função main. Faça a leitura de nome e telefone, crie um ou mais contados pela chamada a função criar_contato, adicione-os a uma lista pela chamada a função adicionar_contato, busque por um nome na lista pela chamada a função buscar_contato e liste todos os contatos pela chamada a função lista_contato.
+
+o) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+p) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade05).
+
+q) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.

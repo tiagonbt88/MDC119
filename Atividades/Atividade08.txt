@@ -1,0 +1,33 @@
+1. Criar um programa para ler e escrever registros em um arquivo binário na linguagem C.
+
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade08 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo ler_escrever_registros.c dentro da pasta Atividade08.
+
+d) Declare uma função main contendo uma variável arq do tipo ponteiro para FILE.
+
+e) Dentro da função main, declare uma estrutura aluno contendo as variáveis matricula do tipo char[10] e nome do tipo char[30].
+
+f) Atribua a variável arq o resultado da função open para criar o arquivo alunos.dat em modo escrita.
+
+g) Faça um laço para ler a matricula e nome de um aluno via teclado até que uma matrícula lida seja vazia.
+
+h) Dentro do laço, escrevar a variável aluno chamando a função fwrite.
+
+i) Fora do laço, feche o arquivo alunos.dat chamado a função fclose.
+
+j) Atribua a variável arq o resultado da função open para abrir o arquivo alunos.dat em modo leitura.
+
+k) Faça um laço para imprimir o conteudo do arquivo alunos.dat até que alcance o final dele. 
+
+l) Dentro do laço, utilize a função read para ler um registro do arquivo e depois imprimir o valor da matricula e nome do aluno.
+
+m) Fora do laço, feche o arquivo alunos.dat. Execute o programa. Qual foi o resultado?
+
+n) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+o) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade07).
+
+p) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.

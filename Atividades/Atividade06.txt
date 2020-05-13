@@ -1,0 +1,57 @@
+1. Criar um programa para abrir um arquivo texto na linguagem C.
+
+a) Execute o arquivo cmd.bat. Em seguida, digite code e pressione ENTER para chamar o VS Code.
+
+b) Crie uma pasta Atividade06 acionando a opção New Folder sobre a pasta Atividades.
+
+c) Crie um arquivo criar_arquivo_txt.c dentro da pasta Atividade06.
+
+d) Declare uma função main contendo uma variável arq do tipo ponteiro para FILE.
+
+e) Atribua a variável arq o resultado da função open para abrir o arquivo dados.txt em modo leitura.
+
+f) Verifique se a variável arq é igual a NULL. Se for imprima a mensagem "Erro ao abrir arquivo" e retorne o valor 1. 
+
+g) Faça a função main imprimir a menssagem "Pressione uma tecla para finalizar..." e chamar a função getchar. Execute o programa. Qual foi o resultado?
+
+h) Crie um arquivo dados.txt dentro da pasta Atividade06. Execute o programa novamente. Qual foi o resultado? Finalize o programa pressionando uma tecla.
+
+i) Altere a chamada da função fopen para abrir o arquivo dados.txt em modo de escrita.
+
+j) Apague o arquivo dados.txt. Execute o programa novamente. Qual foi o resultado?
+
+k) Altere a chamada da função fopen para criar o arquivo dados.txt em modo de escrita. Execute o programa novamente. Qual foi o resultado? Finalize o programa pressionando uma tecla.
+
+l) Edite o arquivo dados.txt pelo VSCode acrescentendo qualquer texto. Execute o programa novamente. Qual foi o resultado? Finalize o programa pressionando uma tecla.
+
+m) Altere a chamada da função fopen para adicionar no arquivo dados.txt. Apague o arquivo dados.txt. Execute o programa novamente. Qual foi o resultado? Finalize o programa pressionando uma tecla.
+
+n) Altere a chamada da função fopen para criar e adicionar no arquivo dados.txt. Apague o arquivo dados.txt. Execute o programa novamente. Qual foi o resultado? Finalize o programa pressionando uma tecla.
+
+o) Execute novamente o programa. Edite o conteudo do arquivo dados.txt pelo VSCode acrescentando qualquer texto. Qual foi o resultado? Finalize o programa pressionando uma tecla.
+
+p) Faça a função main chamar a função fclose para fechar o arquivo dados.txt antes da linha que imprime uma mensagem. 
+
+q) Execute o programa novamente. Edite o conteudo do arquivo dados.txt pelo VSCode acrescentando qualquer texto. Qual foi o resultado? Finalize o programa pressionando uma tecla.
+
+
+
+2. Criar um programa para abrir um arquivo binário na linguagem C.
+
+a) Crie um arquivo criar_arquivo_bin.c dentro da pasta Atividade06.
+
+b) Declare uma função main contendo uma variável arq do tipo ponteiro para FILE.
+
+c) Atribua a variável arq o resultado da função open para criar o arquivo dados.bin em modo leitura e escrita.
+
+d) Verifique se a variável arq é igual a NULL. Se for imprima a mensagem "Erro ao abrir arquivo" e retorne o valor 1. 
+
+e) Faça a função main imprimir a menssagem "Pressione uma tecla para finalizar..." e chamar a função getchar. Execute o programa. Qual foi o resultado?
+
+f) Faça a função main chamar a função feof para verificar se é o final do arquivo. Se for imprima a mensagem "Fim de arquivo encontrado" e retorne o valor 1.
+
+g) Pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em seguida, clique em Stage All.
+
+h) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade06).
+
+i) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.
